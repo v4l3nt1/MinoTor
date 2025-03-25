@@ -76,7 +76,7 @@ i  `: ( ____  ,-::::::' ::j  [:```          [8:   )
 
 os.system("sudo systemctl start tor")
 time.sleep(3)
-print("\033[1;32;40m change your SOCKES to 127.0.0.1:9050 \n")
+print("\033[1;32;40m change your SOCKS to 127.0.0.1:9050 \n")
 os.system("sudo systemctl start tor")
 x = input("[+] Ip rotating cooldown [type=60] >> ")
 lin = input("[+] How many times do you want to change your IP? enter to infinite IP change] >> ") or "0"
